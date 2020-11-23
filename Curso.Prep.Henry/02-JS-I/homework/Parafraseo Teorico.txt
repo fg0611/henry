@@ -1,0 +1,15 @@
+// Las variables son var, let y const.
+	-var, es una palabra clave dentro de javascript que permite crear variables  para almacenar Datos.
+	-let, es similar pero abarca otro scope
+	-const, significa que asigna nombres a Datos que son constantes es decir no varian.
+
+// Los Strings son pertecen a un solo tipo de Datos, los comunes son 3: string, number & boolean.
+	strings, son bloques de texto y van entre comillas
+	numbers, son valores numericos van SIN comillas y pueden tener signos modificadores como (+) y (-).
+	booleans, son operadores basados en la logica de Boole que son true & false.
+
+// Funciones son objetos invocables o "callable objects", su estructura basica es 
+		function functionName () {}
+****Los argumentos normalmente son variables que se introducen en la estructura de las funciones, por ejemplo:
+		function fname (name, age, DNI) {}
+****La declaracion "return"    
