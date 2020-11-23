@@ -1,15 +1,56 @@
+	* Variables
+
 // Las variables son var, let y const.
 	-var, es una palabra clave dentro de javascript que permite crear variables  para almacenar Datos.
 	-let, es similar pero abarca otro scope
 	-const, significa que asigna nombres a Datos que son constantes es decir no varian.
 
-// Los Strings son pertecen a un solo tipo de Datos, los comunes son 3: string, number & boolean.
-	strings, son bloques de texto y van entre comillas
-	numbers, son valores numericos van SIN comillas y pueden tener signos modificadores como (+) y (-).
-	booleans, son operadores basados en la logica de Boole que son true & false.
+
+	* Strings
+
+// Los Strings pertecen a un solo tipo de Datos, los comunmente se usan 3 que son: strings, numbers & booleans.
+	-strings, son bloques de texto y van entre comillas
+	-numbers, son valores numericos van SIN comillas y pueden tener signos modificadores como (+) y (-).
+	-booleans, son operadores basados en la logica de Boole que son true & false.
+
+
+	* Funciones (argumentos, `return`)
 
 // Funciones son objetos invocables o "callable objects", su estructura basica es 
-		function functionName () {}
+		function fName () {}
 ****Los argumentos normalmente son variables que se introducen en la estructura de las funciones, por ejemplo:
-		function fname (name, age, DNI) {}
-****La declaracion "return"    
+		function fName (name, age, DNI) {
+			console.log('this is a function');
+		}
+****La declaracion "return" se usa para obtener un resultado de la funcion elaborada ejm:
+		function fName (name, age, DNI) {
+			name = 'fran';
+			age = 32;
+			DNI = 'xx.xxx.xxx';		
+			console.log('this is a function and the result is: ');
+			return ('Your name is ' + name  + ' your age is ' + age + ', 				next year you will be ' + (age + 1) + ' and  your  Document 				Number is ' + DNI);
+		}		
+  
+
+	* Declaraciones `if`
+
+		Se usan para condicionar mediante parametros de logica 			booleana incluyen (if, else, else if....)
+			
+		a = 1
+		b = 2
+		if (a > b) {'true'} else {'false'}
+				
+
+
+	* Valores booleanos (`true`, `false`)
+
+		Como lo anterior simplemente que ésta ves el resultado es
+		true or false.
+
+		ejm:
+			1 < 1
+			resulta en "false"
+		
+
+			
+
