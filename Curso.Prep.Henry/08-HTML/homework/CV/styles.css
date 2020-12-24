@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{background: linear-gradient(to right, #731086, #511369 );}
+.resume{
+    width: 800px;
+    background: #fff;
+    margin: 25px auto;
+    display: flex;
+}   
+.left{
+    background: #2c2c2e;
+    width: 250px;
+    padding: 0 20px;
+    
+}
+.right{
+    width: calc(100% - 250px);
+}
+
+.left .img_holder{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.left .img_holder img{
+    width: 200px;
+    border-radius: 30px;
+}
+
+.pb{
+    padding-bottom: 20px;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+    color: #9153c9;
+    position: relative;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.title:before{
+    content: "";
+    position: absolute;
+    top: 35px;
+    right: 0;
+    width: 50px;
+    height: 3px;
+    background: #3525af;
+}
+.left .icon{
+    font-size: 20px;
+    color: #9153c9;
+}
+
+.left .text{
+    color: #9153c9;
+    text-transform: uppercase;
+    font-size: 13px;
+
+}
+
+.contact .li_wrap{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.contact .li_wrap .icon{
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact .li_wrap .text{
+    width: calc(100% - 50px);
+    word-break: break-word;
+    margin-left: 5px;
+    color: #fff;
+}
+
+
+.skills ul,
+.self ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills .li_wrap,
+.self .li_wrap{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    display: flex;
+    -ms-flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills .li_wrap{
+    background: #fff;
+}
+
+.self .li_wrap{
+    margin-top: 5px;
+
+}
+
+.self .li_wrap .text,
+.self .li_wrap .icon{
+    color: #fff;
+}
+
+.self .li_wrap{
+    border: 2px solid #fff;
+}
+
+.self .li_wrap:hover{
+    background: #fff;
+}
+
+.self .li_wrap:hover .text,
+.self .li_wrap:hover .icon{
+    color: #9153c9;
+}
+
+.header {
+    background:  #2c2c2e;
+    padding: 15px 30px;
+    color: #fff;
+    height: 250px;
+    
+}
+
+.header .name{
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #9153c9;
+}
+
+.header .role{
+
+    font-size: 30px;
+    font-weight: 300;
+}    
+
+.header .about{
+    margin-top: 20px;
+    line-height: 26px;
+
+}
+
+.right-inner{
+    margin-top: 30px;
+}
+
+.right-inner .exp .title,
+.right-inner .edu .title{
+    margin-right: 10px;
+}
+
+.right-inner .li_wrap{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.right-inner .li_wrap .date{
+    margin-left: 5px;
+    width: 125px;
+    color: #9153c9;
+}
+
+.right-inner .li_wrap .info{
+    width: calc(100% - 125px);
+    padding-left: 25px;
+    position: relative;
+}
+
+.right-inner .li_wrap .info_title{
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #9153c9;
+}
+
+.right-inner .li_wrap .info_com{
+    font-weight: 200;
+    font-size: 14px;
+    margin-top: 2px; 
+}
+
+.right-inner .li_wrap .info_cont{
+    margin-top: 5px;
+}
+
+.right-inner .li_wrap .info:before{
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background: #9153c9;
+    border-radius: 50%;
+
+}
+
+.right-inner .li_wrap .info:after{
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 4px;
+    width: 2px;
+    height: 90%;
+    background: #9153c9;
+}
